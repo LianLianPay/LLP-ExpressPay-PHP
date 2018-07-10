@@ -42,7 +42,7 @@ XD1pCrPZTco4CiambuECQDNtlC31iqzSKmgSWmA5kErqVJB0f1i+a0CbQLlaPGYN
 -----END RSA PRIVATE KEY-----
 ```
 
-其公钥已上传至商户站。有关您真实商户号的公私钥配置， 请参考[连连开放平台 - 公私钥配置](https://open.lianlianpay-inc.com/docs/development/signature-key-generation)。
+其公钥已上传至商户站。有关您真实商户号的公私钥配置， 请参考[连连开放平台 - 公私钥配置](https://openllp.lianlianpay.com/docs/development/signature-key-generation)。
 
 > 测试商户号是连连正式环境的商户号， 需要使用真实信息进行测试， 测试时建议将订单金额设置到```0.01```元(CNY)。使用测试商户号时， 建议使用独特的用户唯一标识```user_id```及独特的商户订单号```no_order```以免与其他商户的测试信息冲突。
 
@@ -80,4 +80,4 @@ llpay
 
 ## 文档说明
 
-有关快捷收款的详细介绍及请求参数说明， 请参考[连连开放平台 - 快捷收款](https://open.lianlianpay-inc.com/docs/receive-money/express/overview)。
+有关快捷收款的详细介绍及请求参数说明， 请参考[连连开放平台 - 快捷收款](https://openllp.lianlianpay.com/docs/receive-money/express/overview)。
