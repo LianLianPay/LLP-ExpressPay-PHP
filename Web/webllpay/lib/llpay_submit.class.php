@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /* *
  * 类名：LLpaySubmit
@@ -19,7 +19,7 @@ class LLpaySubmit {
 	/**
 	 *连连支付网关地址
 	 */
-	var $llpay_gateway_new = 'https://cashier.lianlianpay.com/payment/bankgateway.htm';
+	var $llpay_gateway_new = 'https://payment.lianlianpay.com/payment/bankgateway.htm';
 
 	function __construct($llpay_config) {
 		$this->llpay_config = $llpay_config;

@@ -20,6 +20,7 @@
 
 function Rsasign($data,$priKey) {
 	//转换为openssl密钥，必须是没有经过pkcs8转换的私钥
+	//服务器中php.ini -> 去掉【extension=php_openssl.dll】前面的注释";"
     $res = openssl_get_privatekey($priKey);
 
 	//调用openssl内置签名方法，生成签名$sign

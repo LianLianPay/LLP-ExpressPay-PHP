@@ -251,7 +251,7 @@ ul,ol{
                        <dt>修改标记：</dt>
                     <dd>
                         <span class="null-star">*</span>
-                        <input size="30" name="flag_modify" value="1"/>
+                        <input size="30" name="flag_modify" value="0"/>
                         <span>0-可以修改   1不允许修改  (默认为0)
 </span>
                     </dd>
